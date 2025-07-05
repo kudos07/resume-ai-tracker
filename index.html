@@ -5,49 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Saransh | Data Scientist</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
     body {
-      background: url('https://images.unsplash.com/photo-1549921296-3a4b5f65b162?auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
-      background-size: cover;
+      font-family: 'Inter', sans-serif;
     }
-    .glass {
-      backdrop-filter: blur(20px);
-      background: rgba(255, 255, 255, 0.07);
-      border-radius: 20px;
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
+    html {
+      scroll-behavior: smooth;
     }
   </style>
 </head>
-<body class="min-h-screen flex flex-col items-center justify-center text-white scroll-smooth">
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
 
-  <!-- Hero / Intro -->
-  <section class="w-full flex items-center justify-center min-h-screen px-6">
-    <div class="glass p-10 max-w-2xl text-center space-y-6">
-      <h1 class="text-5xl font-extrabold">Hi, I'm <span class="text-indigo-300">Saransh</span> 👋</h1>
-      <p class="text-xl">MS in Data Science from <span class="text-indigo-200 font-semibold">Stony Brook University</span></p>
-      <p class="text-lg">I'm looking for full-time roles in Data Science, ML, or AI Research.</p>
-      <p class="text-indigo-300 text-xl font-semibold">If you're hiring—let's connect!</p>
-      <a href="resume.pdf" class="inline-block mt-4 bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-full transition duration-300">
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 py-20 space-y-6">
+    <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight leading-tight">
+      Hi, I'm <span class="text-indigo-400">Saransh</span> 👋
+    </h1>
+
+    <p class="text-xl md:text-2xl font-medium">
+      MS in Data Science from <span class="text-indigo-300 font-semibold">Stony Brook University</span>
+    </p>
+
+    <p class="text-lg md:text-xl text-gray-200 max-w-xl">
+      I'm actively seeking full-time opportunities in data science, machine learning, or AI research. 
+      I bring a strong foundation in statistics, hands-on ML projects, and a deep interest in AI's future.
+    </p>
+
+    <p class="text-xl font-semibold text-indigo-400">
+      If you're hiring—let’s connect!
+    </p>
+
+    <div class="pt-4">
+      <a href="resume.pdf" class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-full shadow-md transition duration-300">
         📄 View My Resume
       </a>
-      <div class="pt-6">
-        <a href="#ai-tracker" class="text-indigo-200 text-3xl animate-bounce">⬇️</a>
-      </div>
+    </div>
+
+    <!-- Scroll Down -->
+    <div class="pt-10">
+      <a href="#ai-tracker" class="text-indigo-300 text-3xl animate-bounce">⬇️</a>
     </div>
   </section>
 
-  <!-- AI Tracker Motivation -->
-  <section id="ai-tracker" class="max-w-3xl mx-auto text-center px-6 py-20 text-white space-y-6">
-    <h2 class="text-3xl font-bold text-indigo-300">📅 Why I Track AI Weekly Updates</h2>
-    <p class="text-lg">
-      In the fast-moving world of AI, I believe staying current is part of the job. This section is my personal log—
-      each week I track new models, papers, breakthroughs, and launches across OpenAI, Anthropic, Google, Meta, and more.
-      It keeps me sharp and shows I'm tuned in.
+  <!-- Why I Track AI -->
+  <section id="ai-tracker" class="px-6 py-20 text-center max-w-3xl mx-auto space-y-6">
+    <h2 class="text-3xl md:text-4xl font-bold text-indigo-400">📅 Why I Track Weekly AI Updates</h2>
+    <p class="text-lg text-gray-300 leading-relaxed">
+      In the world of AI, things move fast—model launches, benchmarks, new capabilities, shifting trends. 
+      I created this space to log what’s happening weekly as a personal exercise to stay informed and professionally sharp. 
+      Whether it's OpenAI, Anthropic, Google, Meta, or Hugging Face—if it matters, I track it.
     </p>
   </section>
 
-  <!-- Weekly AI updates will be added here -->
+  <!-- Placeholder for Weekly AI Updates -->
+  <section class="px-6 pb-32 text-gray-200 max-w-3xl mx-auto">
+    <!-- Weekly entries will be placed here -->
+  </section>
 
 </body>
 </html>
