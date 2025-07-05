@@ -6,12 +6,8 @@
   <title>Saransh | AI Weekly Tracker</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    html {
-      scroll-behavior: smooth;
-    }
-    body {
-      font-family: 'Inter', sans-serif;
-    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; }
   </style>
 </head>
 <body class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
@@ -25,11 +21,10 @@
       MS in Data Science from <span class="text-indigo-300 font-semibold">Stony Brook University</span>
     </p>
     <p class="text-lg md:text-xl text-gray-200 max-w-xl">
-      I'm actively seeking full-time opportunities in data science, machine learning, or AI research. 
-      I bring a strong foundation in statistics, hands-on ML projects, and a deep interest in AI's future.
+      I'm actively seeking full-time opportunities in data science, machine learning, or AI research. I track AI weekly to stay ahead of the curve.
     </p>
     <p class="text-xl font-semibold text-indigo-400">
-      If you're hiring—let’s connect!
+      If you're hiring—let's connect!
     </p>
     <div>
       <a href="resume.pdf" class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-full shadow-md transition duration-300">
@@ -37,7 +32,7 @@
       </a>
     </div>
     <div class="pt-8">
-      <a href="#tracker" class="text-indigo-300 text-lg hover:underline">↓ See why I track AI weekly</a>
+      <a href="#tracker" class="text-indigo-300 text-lg hover:underline">↓ Why I track AI weekly</a>
     </div>
   </section>
 
@@ -45,44 +40,55 @@
   <section id="tracker" class="min-h-screen flex flex-col justify-center items-center text-center px-6 max-w-3xl mx-auto space-y-6">
     <h2 class="text-3xl md:text-4xl font-bold text-indigo-400">📅 Why I Track Weekly AI Updates</h2>
     <p class="text-lg text-gray-300 leading-relaxed">
-      In the world of AI, things evolve rapidly—new models, breakthroughs, benchmarks, tools, and trends. 
-      I built this space as a weekly habit to track what’s happening and keep myself sharp. 
-      It’s part learning log, part professional journal—meant to reflect my curiosity and commitment to staying current in the field.
+      In AI, breakthroughs happen weekly — new models, tools, benchmarks, and even paradigm shifts. I track them to stay technically sharp, build intuition for trends, and distinguish hype from true architectural innovation.
     </p>
     <div class="pt-6">
-      <a href="#updates" class="text-indigo-300 text-lg hover:underline">↓ View latest updates</a>
+      <a href="#updates" class="text-indigo-300 text-lg hover:underline">↓ Latest Technical Updates</a>
     </div>
   </section>
 
   <!-- Slide 3: Weekly AI Updates -->
   <section id="updates" class="min-h-screen px-6 pb-20 flex flex-col justify-center max-w-3xl mx-auto space-y-12 text-gray-200">
+    <div class="border-l-4 border-indigo-500 pl-4 space-y-8">
+      <h3 class="text-xl font-bold text-indigo-300">📅 Week of June 23 – June 29, 2025</h3>
 
-    <!-- Week of June 30 – July 6 -->
-    <div class="border-l-4 border-indigo-500 pl-4 space-y-6">
-      <h3 class="text-xl font-bold text-indigo-300">📅 Week of June 30 – July 6, 2025</h3>
+      <!-- Imagen 4 -->
       <div>
-        <h4 class="font-semibold text-indigo-200">🎓 Gemini 2.5 Pro Now in Education</h4>
+        <h4 class="font-semibold text-indigo-200">🖼️ Imagen 4 – Text-to-Image Model (Google)</h4>
         <ul class="list-disc pl-5 text-gray-300">
-          <li>Gemini 2.5 Pro became officially available in Google Workspace for Education</li>
-          <li>Students under 18 can now access Gemini via NotebookLM, Docs, Classroom & more</li>
-          <li>Includes privacy controls and educator tools for safe AI use</li>
-          <li>
-            <a href="https://workspaceupdates.googleblog.com/2025/06/gemini-google-classroom-all-edu-editions.html" 
-               target="_blank" 
-               class="text-indigo-400 underline">
-              Source: Google Workspace Updates
-            </a>
-          </li>
+          <li><strong>Release:</strong> June 24 (Developer Preview via Gemini API)</li>
+          <li><strong>Architecture:</strong> Latent diffusion model with a U-Net backbone; integrated SynthID watermarking and multi-resolution image scaling</li>
+          <li><strong>Improvement:</strong> Compared to Imagen 3, it produces more photorealistic images, sharper text, faster inference, and stronger alignment with prompts</li>
+          <li><a href="https://developers.googleblog.com/en/imagen-4-now-available-in-the-gemini-api-and-google-ai-studio/" target="_blank" class="text-indigo-400 underline">Official blog</a>, <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/models/imagen/4-0-generate-preview-06-06" target="_blank" class="text-indigo-400 underline">Model card</a></li>
+        </ul>
+      </div>
+
+      <!-- Gemini Code Assist -->
+      <div>
+        <h4 class="font-semibold text-indigo-200">⚙️ Gemini Code Assist – Agent Mode</h4>
+        <ul class="list-disc pl-5 text-gray-300">
+          <li><strong>Release:</strong> June 25</li>
+          <li><strong>Architecture:</strong> Implements ReAct (Reason + Act) loop with tool-use planning across multi-file projects; CLI- and IDE-integrated</li>
+          <li><strong>Improvement:</strong> Compared to prior versions, it now handles multi-step reasoning, whole-project understanding, and auto-refactoring</li>
+          <li><a href="https://developers.google.com/gemini-code-assist/docs/use-agentic-chat-pair-programmer" target="_blank" class="text-indigo-400 underline">Agent Mode Guide</a>, <a href="https://developers.google.com/gemini-code-assist/docs/gemini-cli" target="_blank" class="text-indigo-400 underline">CLI Overview</a></li>
+        </ul>
+      </div>
+
+      <!-- Qwen-VLo -->
+      <div>
+        <h4 class="font-semibold text-indigo-200">🧠 Qwen‑VLo – Unified Multimodal Model (Alibaba)</h4>
+        <ul class="list-disc pl-5 text-gray-300">
+          <li><strong>Release:</strong> June 27</li>
+          <li><strong>Architecture:</strong> Unified encoder-decoder model for both vision-to-text and text-to-image generation with progressive refinement and instruction-following</li>
+          <li><strong>Improvement:</strong> Compared to Qwen‑2.5‑VL, it adds generative capabilities, real-time editing, and multilingual control — not just perception, but creation</li>
+          <li><a href="https://qwenlm.github.io/blog/qwen-vlo/" target="_blank" class="text-indigo-400 underline">Official Qwen Blog</a>, <a href="https://arxiv.org/pdf/2308.12966" target="_blank" class="text-indigo-400 underline">VL Paper</a></li>
         </ul>
       </div>
     </div>
-
-    <!-- More weeks can be added below here in the future -->
 
     <div class="text-center pt-10">
       <a href="#top" class="text-indigo-400 underline text-sm">↑ Back to Top</a>
     </div>
   </section>
-
 </body>
 </html>
