@@ -49,30 +49,39 @@
 
   <!-- Slide 3: Weekly AI Updates -->
   <section id="updates" class="min-h-screen px-6 pb-20 flex flex-col justify-center max-w-3xl mx-auto space-y-12 text-gray-200">
-    <div class="border-l-4 border-indigo-500 pl-4 space-y-8">
+    <div class="border-l-4 border-indigo-500 pl-4 space-y-12">
 
-      <!-- Week: June 30 – July 6 -->
+      <!-- Week of June 30 – July 6 -->
       <h3 class="text-xl font-bold text-indigo-300 pt-10">📅 Week of June 30 – July 6, 2025</h3>
-      <p class="text-gray-400">🚧 Updates coming soon...</p>
-
-      <!-- Week: June 23 – June 29 -->
-      <h3 class="text-xl font-bold text-indigo-300 pt-10">📅 Week of June 23 – June 29, 2025</h3>
-
       <div>
-        <h4 class="font-semibold text-indigo-200">🧬 AlphaGenome – AI for Genomics (DeepMind)</h4>
+        <h4 class="font-semibold text-indigo-200">🎓 Gemini 2.5 Pro in Google Education Tools</h4>
         <ul class="list-disc pl-5 text-gray-300">
-          <li><strong>Release:</strong> June 25</li>
-          <li>Used to model gene regulation across 1M base pair contexts with sparse attention</li>
-          <li><a href="https://deepmind.google/discover/blog/alphagenome-ai-for-better-understanding-the-genome/" target="_blank" class="text-indigo-400 underline">DeepMind Blog</a></li>
+          <li><strong>Release:</strong> June 30 via Google Workspace Updates</li>
+          <li><strong>Architecture:</strong> Integrated into NotebookLM, Docs, and Classroom with student-safe filters and moderation tools</li>
+          <li><strong>Improvement:</strong> First Gemini release with support for students under 18 in education environments</li>
+          <li><a href="https://workspaceupdates.googleblog.com/2025/06/gemini-google-classroom-all-edu-editions.html" target="_blank" class="text-indigo-400 underline">Google Workspace Updates</a></li>
+        </ul>
+      </div>
+
+      <!-- Week of June 23 – June 29 -->
+      <h3 class="text-xl font-bold text-indigo-300 pt-10">📅 Week of June 23 – June 29, 2025</h3>
+      <div>
+        <h4 class="font-semibold text-indigo-200">🧬 AlphaGenome – AI for Genomic Regulation (DeepMind)</h4>
+        <ul class="list-disc pl-5 text-gray-300">
+          <li><strong>Release:</strong> June 25 (Official Blog)</li>
+          <li><strong>Architecture:</strong> Transformer model with sparse attention trained on 1M base pair windows and 800+ datasets</li>
+          <li><strong>Improvement:</strong> Outperforms previous models like Enformer on 24/26 gene regulatory benchmarks; enables deeper insights into non-coding DNA</li>
+          <li><a href="https://deepmind.google/discover/blog/alphagenome-ai-for-better-understanding-the-genome/" target="_blank" class="text-indigo-400 underline">Official DeepMind Blog</a></li>
         </ul>
       </div>
 
       <div>
-        <h4 class="font-semibold text-indigo-200">🖼️ Imagen 4 – Text-to-Image (Google)</h4>
+        <h4 class="font-semibold text-indigo-200">🖼️ Imagen 4 – Text-to-Image Model (Google)</h4>
         <ul class="list-disc pl-5 text-gray-300">
-          <li><strong>Release:</strong> June 24</li>
-          <li>Now supports photorealistic outputs and prompt-aligned text rendering</li>
-          <li><a href="https://developers.googleblog.com/en/imagen-4-now-available-in-the-gemini-api-and-google-ai-studio/" target="_blank" class="text-indigo-400 underline">Developer Blog</a></li>
+          <li><strong>Release:</strong> June 24 (Developer Preview via Gemini API)</li>
+          <li><strong>Architecture:</strong> Latent diffusion model with a U-Net backbone; integrated SynthID watermarking and multi-resolution image scaling</li>
+          <li><strong>Improvement:</strong> Compared to Imagen 3, it produces more photorealistic images, sharper text, faster inference, and stronger alignment with prompts</li>
+          <li><a href="https://developers.googleblog.com/en/imagen-4-now-available-in-the-gemini-api-and-google-ai-studio/" target="_blank" class="text-indigo-400 underline">Official blog</a>, <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/models/imagen/4-0-generate-preview-06-06" target="_blank" class="text-indigo-400 underline">Model card</a></li>
         </ul>
       </div>
 
@@ -80,74 +89,18 @@
         <h4 class="font-semibold text-indigo-200">⚙️ Gemini Code Assist – Agent Mode</h4>
         <ul class="list-disc pl-5 text-gray-300">
           <li><strong>Release:</strong> June 25</li>
-          <li>Enables multi-step tool use and CLI-based code assistance across large projects</li>
-          <li><a href="https://developers.google.com/gemini-code-assist/docs/use-agentic-chat-pair-programmer" target="_blank" class="text-indigo-400 underline">Agent Mode Docs</a></li>
+          <li><strong>Architecture:</strong> Implements ReAct (Reason + Act) loop with tool-use planning across multi-file projects; CLI- and IDE-integrated</li>
+          <li><strong>Improvement:</strong> Compared to prior versions, it now handles multi-step reasoning, whole-project understanding, and auto-refactoring</li>
+          <li><a href="https://developers.google.com/gemini-code-assist/docs/use-agentic-chat-pair-programmer" target="_blank" class="text-indigo-400 underline">Agent Mode Guide</a>, <a href="https://developers.google.com/gemini-code-assist/docs/gemini-cli" target="_blank" class="text-indigo-400 underline">CLI Overview</a></li>
         </ul>
       </div>
 
       <div>
-        <h4 class="font-semibold text-indigo-200">🧠 Qwen‑VLo – Unified Vision-Language Model (Alibaba)</h4>
+        <h4 class="font-semibold text-indigo-200">🧠 Qwen‑VLo – Unified Multimodal Model (Alibaba)</h4>
         <ul class="list-disc pl-5 text-gray-300">
           <li><strong>Release:</strong> June 27</li>
-          <li>Supports both image captioning and image generation from one model</li>
-          <li><a href="https://qwenlm.github.io/blog/qwen-vlo/" target="_blank" class="text-indigo-400 underline">Qwen Blog</a></li>
+          <li><strong>Architecture:</strong> Unified encoder-decoder model for both vision-to-text and text-to-image generation with progressive refinement and instruction-following</li>
+          <li><strong>Improvement:</strong> Compared to Qwen‑2.5‑VL, it adds generative capabilities, real-time editing, and multilingual control — not just perception, but creation</li>
+          <li><a href="https://qwenlm.github.io/blog/qwen-vlo/" target="_blank" class="text-indigo-400 underline">Official Qwen Blog</a>, <a href="https://arxiv.org/pdf/2308.12966" target="_blank" class="text-indigo-400 underline">VL Paper</a></li>
         </ul>
       </div>
-
-      <!-- Week: June 16 – June 22 -->
-      <h3 class="text-xl font-bold text-indigo-300 pt-10">📅 Week of June 16 – June 22, 2025</h3>
-
-      <div>
-        <h4 class="font-semibold text-indigo-200">🍏 Qwen 3 – MLX-Compatible Language Models (Alibaba)</h4>
-        <ul class="list-disc pl-5 text-gray-300">
-          <li><strong>Release:</strong> June 16</li>
-          <li>Runs natively on Apple devices via MLX—enabling on-device LLMs for iOS and macOS developers</li>
-          <li><a href="https://www.reuters.com/business/media-telecom/alibaba-launches-new-qwen3-ai-models-apples-mlx-architecture-2025-06-16/" target="_blank" class="text-indigo-400 underline">Reuters</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h4 class="font-semibold text-indigo-200">🛡️ MCP Gateway – Secure Runtime for AI Apps (Operant AI)</h4>
-        <ul class="list-disc pl-5 text-gray-300">
-          <li><strong>Release:</strong> June 16</li>
-          <li>Designed to protect AI apps from prompt injection, data leaks, and harmful output at runtime</li>
-          <li><a href="https://www.globenewswire.com/news-release/2025/06/16/3099877/0/en/Operant-AI-Launches-MCP-Gateway-Enterprise-Grade-Runtime-Defense-for-MCP-Connected-AI-Applications.html" target="_blank" class="text-indigo-400 underline">GlobeNewswire</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h4 class="font-semibold text-indigo-200">🌪️ AI Hurricane Forecasting (Google Weather Lab)</h4>
-        <ul class="list-disc pl-5 text-gray-300">
-          <li><strong>Release:</strong> June 16</li>
-          <li>Simulates hurricane paths 15 days in advance—helpful for insurers, logistics, and emergency services</li>
-          <li><a href="https://deepmind.google/discover/blog/weather-lab-cyclone-predictions-with-ai/" target="_blank" class="text-indigo-400 underline">DeepMind Weather Lab</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h4 class="font-semibold text-indigo-200">🏥 Generative Health Agents (Hippocratic AI + UHS)</h4>
-        <ul class="list-disc pl-5 text-gray-300">
-          <li><strong>Release:</strong> June 16</li>
-          <li>AI agents deployed for post-discharge follow-up—reduces burden on clinical staff</li>
-          <li><a href="https://uhs.com/news/universal-health-services-launches-hippocratic-ais-generative-ai-healthcare-agents-to-assist-with-post-discharge-patient-engagement/" target="_blank" class="text-indigo-400 underline">UHS Newsroom</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h4 class="font-semibold text-indigo-200">⚠️ Anthropic Study: LLMs & Blackmail Behavior</h4>
-        <ul class="list-disc pl-5 text-gray-300">
-          <li><strong>Release:</strong> June 20</li>
-          <li>Study shows current LLMs may engage in coercive behavior under agentic prompting—raises oversight concerns</li>
-          <li><a href="https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/" target="_blank" class="text-indigo-400 underline">TechCrunch</a></li>
-        </ul>
-      </div>
-
-    </div>
-
-    <div class="text-center pt-10">
-      <a href="#top" class="text-indigo-400 underline text-sm">↑ Back to Top</a>
-    </div>
-  </section>
-
-</body>
-</html>
