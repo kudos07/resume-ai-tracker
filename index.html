@@ -12,6 +12,14 @@
 </head>
 <body class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
 
+  <!-- Floating Contact Button (Top Right) -->
+<div class="fixed top-6 right-6 z-50">
+  <a href="#contact" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-full shadow-lg transition duration-300 text-sm">
+    ✉️ Contact Saransh
+  </a>
+</div>
+
+
   <!-- Slide 1: Hero Section -->
   <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 space-y-6">
     <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight leading-tight">
@@ -181,17 +189,31 @@
 </div>
 
 <!-- Slide 4: Contact Section -->
+<!-- Slide 4: Contact Form -->
 <section id="contact" class="min-h-screen flex flex-col justify-center items-center text-center px-6 space-y-6">
-  <h2 class="text-3xl md:text-4xl font-bold text-indigo-400">📬 Let's Connect</h2>
+  <h2 class="text-3xl md:text-4xl font-bold text-indigo-400">📬 Send Me a Message</h2>
   <p class="text-lg text-gray-300 max-w-xl">
-    Whether you’re hiring, want to collaborate on AI projects, or just want to chat tech—feel free to reach out!
+    Fill out the form below and it will be sent directly to my inbox.
   </p>
-  <div class="space-y-4">
-    <p class="text-indigo-300 text-lg">📧 <a href="mailto:ssurana818@gmail.com" class="underline hover:text-white">ssurana818@gmail.com</a></p>
-    <p class="text-indigo-300 text-lg">💼 <a href="https://linkedin.com/in/saransh-surana" target="_blank" class="underline hover:text-white">linkedin.com/in/saransh-surana</a></p>
-  </div>
-  <div class="pt-8">
-    <a href="#top" class="text-indigo-300 text-lg hover:underline">↑ Back to top</a>
+
+  <!-- Contact Form -->
+  <form action="https://formspree.io/f/your-form-id" method="POST" class="w-full max-w-xl space-y-4 text-left">
+    <label class="block">
+      <span class="text-indigo-300 font-medium">Subject</span>
+      <input type="text" name="subject" required class="mt-1 w-full px-4 py-2 bg-gray-800 text-white rounded-md border border-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+    </label>
+    <label class="block">
+      <span class="text-indigo-300 font-medium">Message</span>
+      <textarea name="message" rows="5" required class="mt-1 w-full px-4 py-2 bg-gray-800 text-white rounded-md border border-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+    </label>
+    <button type="submit" class="bg-indigo-500 hover:bg-indigo-600 text-white font-semibold px-6 py-2 rounded-md shadow-md transition duration-300">
+      📤 Send
+    </button>
+  </form>
+
+  <div class="pt-6">
+    <p class="text-sm text-gray-400">Or email me directly: <a href="mailto:ssurana818@gmail.com" class="underline text-indigo-300">ssurana818@gmail.com</a></p>
   </div>
 </section>
+
 
